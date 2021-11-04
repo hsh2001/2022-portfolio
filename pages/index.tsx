@@ -3,6 +3,7 @@ import React from 'react';
 
 import { Container } from '../components/Container';
 import { FadeInOnSlide } from '../components/FadeInOnSlide';
+import { GreyText } from '../components/GreyText';
 import { Layout } from '../components/Layout';
 import { MainTitle } from '../components/MainTitle';
 import { MainTitleSection } from '../components/MainTitleSection';
@@ -70,44 +71,75 @@ const Page: NextPage = () => {
         </Section>
       </FadeInOnSlide>
 
-      <Section>
-        <Container>
-          <SubTitle>ㅇㅇㅇ</SubTitle>
-        </Container>
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <GreyText>에코블로그</GreyText>
+              <br />
+              간편한
+              <br />
+              결제 시스템
+              <br />
+              구축.
+            </SubTitle>
+          </Container>
 
-        <Paragraph>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In incidunt
-          fuga officia, libero hic impedit excepturi saepe mollitia id vitae
-          repellendus cum quisquam cupiditate quam maiores labore ea dolorum.
-          Dolore.
-        </Paragraph>
-      </Section>
+          <Paragraph>
+            2021년 4월, 블로그 마케팅 플랫폼 <b>에코블로그</b>에 결제 시스템을
+            도입과 함께 대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한
+            인플루언서와 마케터의
+          </Paragraph>
+        </Section>
+      </FadeInOnSlide>
 
-      <Section>
-        <Container>
-          <SubTitle>ㅇㅇㅇ</SubTitle>
-        </Container>
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <GreyText>Culture Atlas</GreyText>
+              <br />
+              약 3만건의
+              <br />
+              데이터를
+              <br />
+              담은 그래픽.
+            </SubTitle>
+          </Container>
 
-        <Paragraph>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In incidunt
-          fuga officia, libero hic impedit excepturi saepe mollitia id vitae
-          repellendus cum quisquam cupiditate quam maiores labore ea dolorum.
-          Dolore.
-        </Paragraph>
-      </Section>
+          <Paragraph>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+            incidunt fuga officia, libero hic impedit excepturi saepe mollitia
+            id vitae repellendus cum quisquam cupiditate quam maiores labore ea
+            dolorum. Dolore.
+          </Paragraph>
+        </Section>
+      </FadeInOnSlide>
 
-      <Section>
-        <Container>
-          <SubTitle>ㅇㅇㅇ</SubTitle>
-        </Container>
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <GreyText>카드파라</GreyText>
+              <br />
+              복잡한
+              <br />
+              재고관리
+              <br />
+              클릭으로
+              <br />
+              해결.
+            </SubTitle>
+          </Container>
 
-        <Paragraph>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In incidunt
-          fuga officia, libero hic impedit excepturi saepe mollitia id vitae
-          repellendus cum quisquam cupiditate quam maiores labore ea dolorum.
-          Dolore.
-        </Paragraph>
-      </Section>
+          <Paragraph>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+            incidunt fuga officia, libero hic impedit excepturi saepe mollitia
+            id vitae repellendus cum quisquam cupiditate quam maiores labore ea
+            dolorum. Dolore.
+          </Paragraph>
+        </Section>
+      </FadeInOnSlide>
     </Layout>
   );
 };

@@ -15,7 +15,7 @@ export const FadeInOnSlide: React.FC = ({ children }) => {
       const div = ref.current;
       const { top } = div.getBoundingClientRect();
 
-      if (top < scrollX + innerHeight * 0.8) {
+      if (top < scrollX + innerHeight * 0.6) {
         setOpacity(1);
         window.removeEventListener('scroll', onScroll);
       } else {

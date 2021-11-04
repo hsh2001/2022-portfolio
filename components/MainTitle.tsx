@@ -22,6 +22,6 @@ export const MainTitle = styled.h1`
     padding-right: 4rem;
     color: #000;
     background-color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 `;
