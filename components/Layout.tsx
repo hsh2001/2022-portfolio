@@ -2,24 +2,20 @@ import Head from 'next/head';
 
 import Reset from '../styles/Reset';
 
-import Footer from './Footer';
-import Header from './Header';
+import { Footer } from './Footer';
 
-const Layout: React.FC = ({ children }) => {
+export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Hello NEXT!</title>
+        <title>소프트웨어 엔지니어, 황승현.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Reset />
 
-      <Header />
       <main>{children}</main>
       <Footer />
     </>
   );
 };
-
-export default Layout;
