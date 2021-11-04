@@ -7,6 +7,7 @@ import { GreyText } from '../components/GreyText';
 import { Layout } from '../components/Layout';
 import { MainTitle } from '../components/MainTitle';
 import { MainTitleSection } from '../components/MainTitleSection';
+import { MainTitleSectionContainer } from '../components/MainTitleSectionContainer';
 import { Paragraph } from '../components/Paragraph';
 import { Section } from '../components/Section';
 import { SkillItem } from '../components/SkillItem';
@@ -16,13 +17,21 @@ import { SubTitle } from '../components/SubTitle';
 const Page: NextPage = () => {
   return (
     <Layout>
-      <MainTitleSection>
-        <MainTitle>
-          <span className="job">소프트웨어 엔지니어,</span>
-          <br />
-          <span className="name">황승현.</span>
-        </MainTitle>
-      </MainTitleSection>
+      <MainTitleSectionContainer>
+        <MainTitleSection>
+          <MainTitle>
+            <span className="job">소프트웨어 엔지니어,</span>
+            <br />
+            <span className="name">황승현.</span>
+          </MainTitle>
+        </MainTitleSection>
+      </MainTitleSectionContainer>
+
+      <FadeInOnSlide>
+        <Container style={{ marginBottom: 300, marginTop: '70vh' }}>
+          <SubTitle>저는...</SubTitle>
+        </Container>
+      </FadeInOnSlide>
 
       <FadeInOnSlide>
         <Section>
@@ -72,16 +81,18 @@ const Page: NextPage = () => {
       </FadeInOnSlide>
 
       <FadeInOnSlide>
+        <Container style={{ marginBottom: 300, marginTop: 300 }}>
+          <SubTitle>프로젝트들...</SubTitle>
+        </Container>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
         <Section>
           <Container>
             <SubTitle>
               <GreyText>에코블로그</GreyText>
               <br />
-              간편한
-              <br />
-              결제 시스템
-              <br />
-              구축.
+              간편한 결제 시스템 구축.
             </SubTitle>
           </Container>
 
@@ -90,6 +101,12 @@ const Page: NextPage = () => {
             도입과 함께 대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한
             인플루언서와 마케터의
           </Paragraph>
+
+          <Container>
+            <SkillItem>PHP</SkillItem>
+            <SkillItem>MySQL</SkillItem>
+            <SkillItem>TossPayments</SkillItem>
+          </Container>
         </Section>
       </FadeInOnSlide>
 
@@ -98,12 +115,7 @@ const Page: NextPage = () => {
           <Container>
             <SubTitle>
               <GreyText>Culture Atlas</GreyText>
-              <br />
-              약 3만건의
-              <br />
-              데이터를
-              <br />
-              담은 그래픽.
+              <br />약 3만건의 데이터를 담은 그래픽.
             </SubTitle>
           </Container>
 
@@ -113,6 +125,14 @@ const Page: NextPage = () => {
             id vitae repellendus cum quisquam cupiditate quam maiores labore ea
             dolorum. Dolore.
           </Paragraph>
+
+          <Container>
+            <SkillItem>React</SkillItem>
+            <SkillItem>NextJS</SkillItem>
+            <SkillItem>Data Preprocessing</SkillItem>
+            <SkillItem>SQLite</SkillItem>
+            <SkillItem>TypeORM</SkillItem>
+          </Container>
         </Section>
       </FadeInOnSlide>
 
@@ -122,13 +142,7 @@ const Page: NextPage = () => {
             <SubTitle>
               <GreyText>카드파라</GreyText>
               <br />
-              복잡한
-              <br />
-              재고관리
-              <br />
-              클릭으로
-              <br />
-              해결.
+              복잡한 재고관리 클릭으로 해결.
             </SubTitle>
           </Container>
 
@@ -138,6 +152,42 @@ const Page: NextPage = () => {
             id vitae repellendus cum quisquam cupiditate quam maiores labore ea
             dolorum. Dolore.
           </Paragraph>
+
+          <Container>
+            <SkillItem>React</SkillItem>
+            <SkillItem>NextJS</SkillItem>
+            <SkillItem>Web Crawling</SkillItem>
+            <SkillItem>MySQL</SkillItem>
+            <SkillItem>TypeORM</SkillItem>
+            <SkillItem>SWR</SkillItem>
+          </Container>
+        </Section>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
+        <Container style={{ marginBottom: 300, marginTop: 300 }}>
+          <SubTitle>그래서...</SubTitle>
+        </Container>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
+        <Section style={{ marginBottom: 150 }}>
+          <Container>
+            <SubTitle>당신이 원하는 모든 것을 만들어 드립니다.</SubTitle>
+          </Container>
+
+          <Paragraph>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            molestiae quos beatae. Dicta recusandae quaerat laudantium eligendi
+            magnam ipsam aliquam at placeat nihil, facilis eveniet debitis
+            dolores, repudiandae quod sed?
+          </Paragraph>
+
+          <Container>
+            <SkillItem>Email: dev@hsh.kr</SkillItem>
+            <br />
+            <SkillItem>Phone: 010-6379-0084</SkillItem>
+          </Container>
         </Section>
       </FadeInOnSlide>
     </Layout>

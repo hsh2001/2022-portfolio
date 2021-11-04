@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 
 export const MainTitleSection = styled.section`
-  padding: 1rem;
-  padding-top: 10vh;
-  padding-bottom: 0;
-  min-height: 90vh;
-  margin-bottom: 6rem;
+  height: 100vh;
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
 
-  background-color: #59c4c5;
   background-image: url('/images/asher.png');
-  background-size: 100vmin 100vmin;
+  background-size: auto 80vmin;
   background-repeat: no-repeat;
   background-position: right bottom;
 `;

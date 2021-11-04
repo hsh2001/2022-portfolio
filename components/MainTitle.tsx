@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const MainTitle = styled.h1`
+  position: sticky;
+  top: 3rem;
   padding-left: 1rem;
   font-size: 3rem;
+  margin: 0;
 
   span {
     display: inline-block;
@@ -22,6 +25,7 @@ export const MainTitle = styled.h1`
     padding-right: 4rem;
     color: #000;
     background-color: #fff;
-    font-size: 4rem;
+    font-size: 15vmin;
+    margin-bottom: 0;
   }
 `;
