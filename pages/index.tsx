@@ -90,6 +90,34 @@ const Page: NextPage = () => {
         <Section>
           <Container>
             <SubTitle>
+              <GreyText>트래블핀</GreyText>
+              <br />
+              지도 위에 여행 계획짜기.
+            </SubTitle>
+          </Container>
+
+          <Paragraph>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            architecto animi velit, in aspernatur doloremque laudantium nisi
+            neque unde iure ducimus, repellendus magnam optio mollitia ipsa,
+            voluptatum sit earum quas.
+          </Paragraph>
+
+          <Container>
+            <SkillItem>Flutter</SkillItem>
+            <SkillItem>GetX</SkillItem>
+            <SkillItem>Provider</SkillItem>
+            <SkillItem>Firebase</SkillItem>
+            <SkillItem>NodeJS</SkillItem>
+            <SkillItem>ExpressJS</SkillItem>
+          </Container>
+        </Section>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
               <GreyText>에코블로그</GreyText>
               <br />
               간편한 결제 시스템 구축.
@@ -98,8 +126,8 @@ const Page: NextPage = () => {
 
           <Paragraph>
             2021년 4월, 블로그 마케팅 플랫폼 <b>에코블로그</b>에 결제 시스템을
-            도입과 함께 대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한
-            인플루언서와 마케터의
+            도입을 포함한 대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한
+            인플루언서와 마케터의 매칭을 도와주고
           </Paragraph>
 
           <Container>
