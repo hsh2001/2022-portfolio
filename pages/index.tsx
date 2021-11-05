@@ -96,6 +96,10 @@ const Page: NextPage = () => {
             </SubTitle>
           </Container>
 
+          <Container>
+            <img src="/images/travelpin.png" />
+          </Container>
+
           <Paragraph>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             architecto animi velit, in aspernatur doloremque laudantium nisi
@@ -110,6 +114,9 @@ const Page: NextPage = () => {
             <SkillItem>Firebase</SkillItem>
             <SkillItem>NodeJS</SkillItem>
             <SkillItem>ExpressJS</SkillItem>
+            <SkillItem>Google Place API</SkillItem>
+            <SkillItem>Signin with Apple</SkillItem>
+            <SkillItem>Signin with Kakao</SkillItem>
           </Container>
         </Section>
       </FadeInOnSlide>
@@ -124,10 +131,14 @@ const Page: NextPage = () => {
             </SubTitle>
           </Container>
 
+          <Container>
+            <img src="/images/echoblog.png" />
+          </Container>
+
           <Paragraph>
-            2021년 4월, 블로그 마케팅 플랫폼 <b>에코블로그</b>에 결제 시스템을
-            도입을 포함한 대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한
-            인플루언서와 마케터의 매칭을 도와주고
+            블로그 마케팅 플랫폼 <b>에코블로그</b>에 결제 시스템을 도입을 포함한
+            대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한 인플루언서와 마케터의
+            매칭을 도와주고
           </Paragraph>
 
           <Container>
@@ -145,6 +156,10 @@ const Page: NextPage = () => {
               <GreyText>Culture Atlas</GreyText>
               <br />약 3만건의 데이터를 담은 그래픽.
             </SubTitle>
+          </Container>
+
+          <Container>
+            <img src="/images/culture.png" />
           </Container>
 
           <Paragraph>
@@ -172,6 +187,10 @@ const Page: NextPage = () => {
               <br />
               복잡한 재고관리 클릭으로 해결.
             </SubTitle>
+          </Container>
+
+          <Container>
+            <img src="/images/cardpara.png" />
           </Container>
 
           <Paragraph>
