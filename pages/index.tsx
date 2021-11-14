@@ -136,15 +136,16 @@ const Page: NextPage = () => {
           </Container>
 
           <Paragraph>
-            블로그 마케팅 플랫폼 <b>에코블로그</b>에 결제 시스템을 도입을 포함한
-            대대적 리뉴얼 작업을 하였습니다. 마케팅을 위한 인플루언서와 마케터의
-            매칭을 도와주고
+            블로그 마케팅 플랫폼 에코블로그에 결제 시스템을 도입을 포함한 대대적
+            리뉴얼 작업을 하였습니다. 마케팅을 위한 인플루언서와 마케터의 매칭을
+            도와주고, 매칭에 도움이 되는 부가기능을 유료 서비스로 추가함으로
+            수익화에 성공할 수 있었습니다.
           </Paragraph>
 
           <Container>
             <SkillItem>PHP</SkillItem>
             <SkillItem>MySQL</SkillItem>
-            <SkillItem>TossPayments</SkillItem>
+            <SkillItem>TossPayments API</SkillItem>
           </Container>
         </Section>
       </FadeInOnSlide>
@@ -163,10 +164,10 @@ const Page: NextPage = () => {
           </Container>
 
           <Paragraph>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-            incidunt fuga officia, libero hic impedit excepturi saepe mollitia
-            id vitae repellendus cum quisquam cupiditate quam maiores labore ea
-            dolorum. Dolore.
+            Cultural Resources LLC. 팀에서 수집한 약 3만건의 역사 자료를 지구
+            그래픽 위에 표시하였습니다. 빠른 데이터 처리를 위해 각각의 레코드를
+            전처리된 데이터들로 구성하고 이를 활용해 정적 웹 사이트를 구현하며
+            서버 구성 비용을 획기적으로 절약할 수 있었습니다.
           </Paragraph>
 
           <Container>
@@ -194,10 +195,9 @@ const Page: NextPage = () => {
           </Container>
 
           <Paragraph>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-            incidunt fuga officia, libero hic impedit excepturi saepe mollitia
-            id vitae repellendus cum quisquam cupiditate quam maiores labore ea
-            dolorum. Dolore.
+            TCG 카드를 판매하는 매장 특성상, 몇 만 건의 각기 다른 재고를 하나의
+            매장에서 관리합니다. 당시 TCG 게임 매장을 2개 운영하는 카드파라의
+            대표님은 저와 함께 이 문제를 해결하기에 나섭니다.
           </Paragraph>
 
           <Container>
@@ -207,6 +207,8 @@ const Page: NextPage = () => {
             <SkillItem>MySQL</SkillItem>
             <SkillItem>TypeORM</SkillItem>
             <SkillItem>SWR</SkillItem>
+            <SkillItem>AWS EC2</SkillItem>
+            <SkillItem>AWS Route53</SkillItem>
           </Container>
         </Section>
       </FadeInOnSlide>
@@ -224,10 +226,8 @@ const Page: NextPage = () => {
           </Container>
 
           <Paragraph>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
-            molestiae quos beatae. Dicta recusandae quaerat laudantium eligendi
-            magnam ipsam aliquam at placeat nihil, facilis eveniet debitis
-            dolores, repudiandae quod sed?
+            무엇을 만들고 싶나요? 그것을 단순히 만들기만 하고 싶나요? 아니면
+            함께 구상하고 고민하며 완벽한 결과물을 만들 사람이 필요한가요?
           </Paragraph>
 
           <Container>
