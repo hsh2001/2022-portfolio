@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 
 const StyledFadeInOnSlide = styled.div`
-  transition: opacity 0.5s;
+  transition: opacity 0.7s;
 `;
 
 export const FadeInOnSlide: React.FC = ({ children }) => {
