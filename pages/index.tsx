@@ -30,7 +30,7 @@ const Page: NextPage = () => {
       <FadeInOnSlide>
         <Section>
           <Container>
-            <SubTitle>뭐든지 배울 수 있고 발전이 가능한</SubTitle>
+            <SubTitle>뭐든지 배울 수 있고 발전이 가능한 개발자</SubTitle>
           </Container>
 
           <Paragraph>
