@@ -8,7 +8,7 @@ export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
-        <title>소프트웨어 엔지니어, 황승현.</title>
+        <title>flutter 프론트엔드 개발자, 권오성.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

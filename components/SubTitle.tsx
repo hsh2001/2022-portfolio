@@ -6,7 +6,7 @@ export const SubTitle = styled.h2`
   ${maxWidthWithAutoMargin}
   font-size: 56px;
   margin: 1rem auto;
-  width: 50%;
+  width: 70%;
   min-width: 300px;
   margin-left: 0;
   word-break: keep-all;

@@ -6,8 +6,8 @@ export const MainTitleSection = styled.section`
   max-width: 1500px;
   margin: auto;
 
-  background-image: url('/images/asher.png');
-  background-size: auto 80vmin;
+  background-image: url('/images/osung2.png');
+  background-size: auto 100vmin;
   background-repeat: no-repeat;
   background-position: right bottom;
 `;

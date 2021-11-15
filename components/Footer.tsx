@@ -12,8 +12,6 @@ const FooterContainer = styled.footer`
 
 export const Footer: React.FC = () => {
   return (
-    <FooterContainer>
-      Copyright 2022 Asher Hwang. All rights reserved.
-    </FooterContainer>
+    <FooterContainer>Copyright 2022 Osung All rights reserved.</FooterContainer>
   );
 };
