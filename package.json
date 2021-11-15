@@ -6,7 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "deploy": "next build && next export && gh-pages -d out",
+        "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages",
         "export": "npm run build && next export",
         "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
         "fix:package-lock": "rm -r node_modules ; rm package-lock.json ; npm i --force",
