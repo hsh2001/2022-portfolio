@@ -1,5 +1,0 @@
-{
-  "labels": ["dependencies"],
-  "extends": ["config:base"],
-  "baseBranches": ["update-dependencies"]
-}
