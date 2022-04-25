@@ -29,7 +29,7 @@
     "@types/styled-components": "5.1.15",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
-    "babel-plugin-styled-components": "1.13.3",
+    "babel-plugin-styled-components": "2.0.7",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.5",
     "eslint": "7.32.0",
